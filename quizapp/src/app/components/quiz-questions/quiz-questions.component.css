@@ -1,0 +1,46 @@
+.quiz-question {
+    margin-top: 11.6rem;
+}
+
+.card {
+    width: 56rem;
+}
+
+.card-header {
+    background-color: grey;
+    color: white;
+    padding: 1rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+.question {
+    padding: 1rem 1rem;
+}
+
+.answers {
+    background-color: rgb(240, 240, 240);
+}
+
+.form-check {
+    padding: 0.3rem 1.5rem;
+}
+
+.count {
+    padding: 0.5rem 0 0 0.3rem;
+}
+
+.question-number {
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .quiz-question {
+        margin-top: 9rem;
+    }
+
+    .card {
+        width: 20rem;
+        margin-left: 0.9rem;
+    }
+}
