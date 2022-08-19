@@ -5,10 +5,6 @@
     padding: 2rem;
 }
 
-.card {
-    width: 67.3rem;
-}
-
 .list-group-item {
     background-color: rgb(212, 212, 212);
 }
@@ -24,8 +20,7 @@
 @media only screen and (max-width: 600px) {
     .choices {
         margin-top: 5.5rem;
+        padding: 1rem;
     }
-    .card {
-        width: 20.3rem;
-    }
+   
 }
