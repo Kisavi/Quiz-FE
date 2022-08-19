@@ -1,38 +1,23 @@
 .create-quiz {
     background-color: #a8a8a8;
-    margin-bottom: 3rem;
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
 
 .quiz-form {
-    margin-top: 3rem;
-    padding-bottom: 3rem;
+    border-radius: 0.3rem;
 }
 
-.quiz-sec {
-    margin-top: 5.3rem;
-}
 
 /* media query */
  @media only screen and (max-width: 600px) {
     .create-quiz {
-        margin: 2rem 0 0 0;
+        margin-top: 2rem;
     }
 
     .quiz-form {
-        margin-bottom: 1rem;
-        padding-bottom: 0;
         height: auto;
-    }
-
-    .quiz-sec {
-        margin: 1rem 0 3rem 1.7rem;
     }
 }  
 
 
 
-.start {
-    margin-top: 7rem;
-    background-color: pink;
-}

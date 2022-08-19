@@ -1,8 +1,10 @@
-<div class="container create-quiz">
+
+ <div class="container create-quiz p-5">
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-5 quiz-form">
-            <h5>Create a quiz in minutes.</h5>
+        <div class="col-sm col-lg-1"></div>
+        <div class="col-sm col-md-7 col-lg-6">
+            <div class="p-3 bg-light my-2 quiz-form">
+                <h5>Create a quiz in minutes.</h5>
             <hr>
             <form>
                 <div class="mb-3">
@@ -24,34 +26,28 @@
                     <a routerLink="/add-question"><button type="submit" class="btn btn-dark">+ Add Questions</button></a>
                 </div>
             </form>
+            </div>
         </div>
-
-        <div class="col-md-4 quiz-sec">
-            <div class="card quiz" style="width: 17.5rem;">
-                <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <div class="card-head flex">
-                        <h5 class="card-title">JavaScript Quiz</h5>
+        <div class="col-sm col-md-4 col-lg-4">
+            <div class="my-2">
+                <div class="card quiz">
+                    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-head flex">
+                            <h5 class="card-title">JavaScript Quiz</h5>
+                        </div>
+                        <p class="card-text">The test is not official, it's just a nice way to see how much you know, or
+                            don't know, about JavaScript.</p>
                     </div>
-                    <p class="card-text">The test is not official, it's just a nice way to see how much you know, or
-                        don't know, about JavaScript.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-sm col-lg-1"></div>
     </div>
 </div>
 
-<!-- <div class="container start px-4">
-    <div class="row">
-        <div class="col">
-            <div class="p-3 bg-light"> <h4>This is a div</h4></div>
-        </div>
-    </div>
-</div>
-
-<div class="container bg-dark px-4">
+<!-- <div class="container bg-dark px-4">
     <div class="row">
       <div class="col">
        <div class="p-3 border bg-light">Custom column padding</div>
