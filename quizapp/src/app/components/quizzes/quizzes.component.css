@@ -1,7 +1,6 @@
 .quizzes {
     /* background-color: aqua; */
-    margin-top: 6rem;
-    margin-left: 0.9rem;
+    margin-top: 5.4rem;
 }
 
 /* edit and delete buttons */
@@ -28,14 +27,6 @@
 
 @media only screen and (max-width: 600px) {
 
-    /* html, body {
-        overflow-x: hidden;
-    }
-
-    boby {
-        position: relative;
-    } */
-
     *{
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -43,8 +34,7 @@
     }
 
     .quiz {
-        margin-left: 0.8rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.4rem;
      }
 
 }

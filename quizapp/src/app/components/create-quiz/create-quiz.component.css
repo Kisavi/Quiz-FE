@@ -14,7 +14,7 @@
 }
 
 /* media query */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     .create-quiz {
         margin: 2rem 0 0 0;
     }
@@ -28,4 +28,11 @@
     .quiz-sec {
         margin: 1rem 0 3rem 1.7rem;
     }
+}  
+
+
+
+.start {
+    margin-top: 7rem;
+    background-color: pink;
 }

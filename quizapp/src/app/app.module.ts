@@ -8,6 +8,7 @@ import { QuizzesComponent } from './components/quizzes/quizzes.component';
 import { CreateQuizComponent } from './components/create-quiz/create-quiz.component';
 import { AddQuestionComponent } from './components/add-question/add-question.component';
 import { QuizQuestionsComponent } from './components/quiz-questions/quiz-questions.component';
+import { QuestionChoicesComponent } from './components/question-choices/question-choices.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QuizQuestionsComponent } from './components/quiz-questions/quiz-questio
     QuizzesComponent,
     CreateQuizComponent,
     AddQuestionComponent,
-    QuizQuestionsComponent
+    QuizQuestionsComponent,
+    QuestionChoicesComponent
   ],
   imports: [
     BrowserModule,
